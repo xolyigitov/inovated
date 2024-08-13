@@ -182,7 +182,7 @@
     }
     .clients-item{
         align-items: center;
-        height: 70vh;
+        height: 65vh;
         flex-direction: column;
     }
     .item-left__text{
