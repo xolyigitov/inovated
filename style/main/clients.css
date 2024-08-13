@@ -1,0 +1,202 @@
+@import url(../fonts.css);
+
+/* root-start */
+:root {
+    --Lato-Black: Lato-Black;
+    --Lato-Bold: Lato-Black;
+    --Poppins-Medium: Poppins-Medium;
+    --Poppins-Regular: Poppins-Regular;
+    --primary-black: #050C26;
+    --hover-blue: #3988FF;
+    --grey: #575859;
+    --white: #FFFFFF;
+    --line-red: #E41A1A;
+    --line-orange: #DA5A12;
+    --line-green: #5BBB10;
+    --line-blue: #15C1CC;
+    --service-bg: #F3F3F3;
+    --pricing-btn:#1B45DA;
+}
+
+/* root-end */
+
+.clients-titles{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clients-title{
+    color: var(--primary-black);
+    font-family:var(--Lato-Bold);
+    font-size: 43px;
+    line-height:60.2px;
+}
+.clients-text{
+    margin-top: 25px;
+    max-width: 715px;
+    width: 100%;
+    text-align: center; 
+    color: var(--grey);    
+    font-family:var(--Poppins-Regular);
+    font-size: 18px;
+    line-height:28.8px;
+}
+/* clients-item  start */
+
+.clients-item{
+    margin: 20px 0px;
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+    border: 1px solid var(--primary-black);
+    display: flex;
+}
+
+.item-left__icon-text{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+.item-left__text{
+    max-width: 371px;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 5px;
+    color: var(--primary-black);
+    font-family:var(--Poppins-Medium);
+    font-size: 18px;
+    line-height: 28.8px;
+}
+.item-left__person{
+    margin:30px 0px 0px 69px ;
+    display: flex;
+    align-items: center;
+}
+.left-person{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.left-person__name{
+    color: var(--primary-black);
+    font-family:var(--Poppins-Medium);
+    font-size: 20px;
+    line-height:32px;
+}
+.left-person__text{
+    color: var(--grey);
+    font-family:var(--Poppins-Regular);
+    font-size: 16px;
+    line-height:25.6px;
+}
+@media(max-width:1223px){
+    .clients-item{
+        align-items: center;
+        height: 50vh;
+    }
+    .item-left__person{
+        margin:30px 0px 0px 69px ;
+        display: flex;
+        align-items: center;
+    }
+    .left-person__name{
+        color: var(--primary-black);
+        font-family:var(--Poppins-Medium);
+        font-size: 16px;
+        line-height:32px;
+    }
+    .left-person__text{
+        color: var(--grey);
+        font-family:var(--Poppins-Regular);
+        font-size: 14px;
+        line-height:25.6px;
+    }
+    .left-person__name{
+        color: var(--primary-black);
+        font-family:var(--Poppins-Medium);
+        font-size: 20px;
+        line-height:32px;
+    }
+    .item-left__img{
+        width: 60px;
+        height: 60px;
+    }
+}
+@media(max-width:1223px){
+    .clients-item{
+        width: 100%;
+    }
+}
+@media(max-width:968px){
+    .clients-item{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@media(max-width:941px){
+    .clients-item{
+        height: 65vh;
+    }
+}
+@media(max-width:466px){
+    .clients-item{
+        align-items: center;
+        height: 85vh;
+    }
+    .item-left__text{
+        max-width: 271px;
+        width: 100%;
+        padding-top: 60px;
+        padding-left: 5px;
+        color: var(--primary-black);
+        font-family:var(--Poppins-Medium);
+        font-size: 16px;
+        line-height: 24.8px;
+    }
+}
+@media(max-width:451px){
+    .clients-item{
+        align-items: center;
+        height: 65vh;
+        flex-direction: column;
+    }
+    .item-left__text{
+        padding-top: 30px;
+        font-size: 14px;
+    }
+    .left-person__name{
+        font-size: 16px;
+        padding-left: 20px;
+    }
+    .left-person__text{
+        padding-left: 20px;
+    }
+    .left-person{
+        margin-left: 0px;
+    }
+}
+@media(max-width:399px){
+    .clients-title{
+        margin-left: 30px;
+    }
+    .clients-item{
+        align-items: center;
+        height: 70vh;
+        flex-direction: column;
+    }
+    .item-left__text{
+        padding-top: 20px;
+        font-size: 14px;
+    }
+    .left-person__name{
+        font-size: 16px;
+        padding-left: 20px;
+    }
+    .left-person__text{
+        padding-left: 20px;
+    }
+    .left-person{
+        margin-left: 0px;
+    }
+}
